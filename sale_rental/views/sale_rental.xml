@@ -167,7 +167,7 @@
     <field name="model">sale.rental</field>
     <field name="arch" type="xml">
         <graph string="Rentals" type="bar" stacked="True">
-            <field name="start_date" type="row" interval="month" />
+            <field name="start_datetime" type="row" interval="month" />
             <field name="state" type="row" />
             <field name="rental_qty" type="measure" />
         </graph>
@@ -209,7 +209,7 @@
 <record id="sale_rental_action" model="ir.actions.act_window">
     <field name="name">Rentals</field>
     <field name="res_model">sale.rental</field>
-    <field name="view_mode">tree,form,graph,calendar,,pivot</field>
+    <field name="view_mode">tree,form,graph,calendar,pivot</field>
 </record>
 
 <menuitem
