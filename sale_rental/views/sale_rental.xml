@@ -193,8 +193,8 @@
     <field name="arch" type="xml">
         <calendar
                 string="Rental Schedule"
-                date_start="start_date"
-                date_stop="end_date"
+                date_start="start_datetime"
+                date_stop="end_datetime"
                 mode="month"
                 create="0"
                 color="partner_id"
