@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-vertical-rental Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-rental_base>=16.0dev,<16.1dev',
         'odoo-addon-sale_rental>=16.0dev,<16.1dev',
     ],
     classifiers=[
