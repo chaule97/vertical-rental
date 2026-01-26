@@ -216,7 +216,7 @@
         id="sale_rental_menu"
         parent="sale.sale_order_menu"
         action="sale_rental_action"
-        sequence="2"
+        sequence="10"
     />
 
     <record id="view_rental_report_by_product_pivot" model="ir.ui.view">
