@@ -23,7 +23,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [rental_base](rental_base/) | 16.0.1.0.0 |  | Manage Rental of Products
-[sale_rental](sale_rental/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Manage Rental of Products
+[sale_rental](sale_rental/) | 16.0.1.0.2 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Manage Rental of Products
 
 [//]: # (end addons)
 
